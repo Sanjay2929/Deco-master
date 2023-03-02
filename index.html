@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DECO MASTER</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- my custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header class="h_100vh d-flex flex-column">
+        <nav class="clr_light_green">
+            <div class="container-xxl">
+                <div class="d-flex justify-content-between align-items-center">
+
+                    <img src="./assets/img/png/logo.png" alt="logo">
+
+                    <ul id="showul" class="d-flex gap-5 mob_view mb-0">
+                        <li><a class="" href="#">Home</a></li>
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">Why Choose Us?</a></li>
+                        <li><a href="#">Our Plans</a></li>
+                        <li><a href="#">How It Works</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                    <div class="menuicon d-lg-none" id="shownav" onclick="shownav()">
+                        <span class="navline">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <section class="hero_bg flex-grow-1 d-flex flex-column   justify-content-center ">
+            <div class="container-xxl  ">
+                <h4 class="mb-4"><i class="fw-normal fs_18 clr_purple ">Splash Your Dream Color</i></h4>
+                <h2 class="fw-medium fs_36 clr_black mb-4 pb-2">Bring Your Home To Lively Colors</h2>
+                <button class=" fw-medium fs_20 pad_btn mb-3 color_btn">Colour Me</button>
+            </div>
+        </section>
+    </header>
+    <section>
+        <div class="container-xxl pb-5">
+            <div class="d-flex flex-column align-items-center py-5">
+                <h2 class="pt-5 fw-bold fs_48 clr_black mb-3">Why Choose Us?</h2>
+                <img src="./assets/img/png/section2_dots.png" alt="dots">
+            </div>
+            <div class="row border_doted mt-2">
+                <div class="col-md-4 col-sm-6 col-12 box1 right bottom box1">
+                    <div class="text-center py-sm-5 pt-5 my-sm-4">
+                        <img class="mb-4" src="./assets/img/png/roller.png" alt="roller_img">
+                        <h5>Faux Finishes</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 box2 right bottom">
+                    <div class="text-center py-sm-5 pt-5 my-sm-4">
+                        <img class="mb-4" src="./assets/img/png/bucket.png" alt="bucket_img">
+                        <h5>Water Proofing</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 box3 bottom">
+                    <div class="text-center py-sm-5 pt-5 my-sm-4">
+                        <img class="mb-4" src="./assets/img/png/pre_paint.png" alt="painting_img">
+                        <h5>Pre-Paint Demo</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 box4 right">
+                    <div class="text-center py-sm-5 pt-5 my-sm-4">
+                        <img class="mb-4" src="./assets/img/png/water_drop.png" alt="water-drop">
+                        <h5>Mildew Removal</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 box5 right">
+                    <div class="text-center py-sm-5 pt-5 my-sm-4">
+                        <img class="mb-4" src="./assets/img/png/color-proof.png" alt="color_img">
+                        <h5>Color Proof</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 box6">
+                    <div class="text-center py-sm-5 pt-5 my-sm-4">
+                        <img class="mb-4" src="./assets/img/png/paint-brush.png" alt="brush_img">
+                        <h5>Window Washing</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="overflow-hidden pb-5">
+        <div class="container-fluid">
+            <div class="d-flex flex-column align-items-center py-5">
+                <h2 class="pt-3 fw-bold fs_48 clr_black mb-3">Gallery</h2>
+                <img src="./assets/img/png/section2_dots.png" alt="dots">
+            </div>
+            <div class="row ">
+                <div class=" col-xl-3 col-md-4 col-sm-6 col-12 p-sm-0">
+                    <div class="position-relative h-100">
+                        <img class="w-100 h-100" src="./assets/img/png/sec3_1.png" alt="img">
+                        <div class="position-absolute absolute w-100 h-100">
+                            <img class=" w-100 h-100" src="./assets/img/png/hover_img.png" alt="hover">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-sm-6 col-12 p-sm-0 ">
+                    <div class="position-relative h-100">
+                        <img class="w-100 h-100" src="./assets/img/png/sec3_2.png" alt="img">
+                        <div class="position-absolute absolute w-100 h-100">
+                            <img class=" w-100 h-100" src="./assets/img/png/hover_img.png" alt="hover">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-sm-6 col-12 p-sm-0 ">
+                    <div class="position-relative h-100">
+                        <img class="w-100 h-100" src="./assets/img/png/sec3_3.png" alt="img">
+                        <div class="position-absolute absolute w-100 h-100">
+                            <img class=" w-100 h-100" src="./assets/img/png/hover_img.png" alt="hover">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-sm-6 col-12  p-sm-0 ">
+                    <div class="position-relative h-100">
+                        <img class="w-100 h-100" src="./assets/img/png/sec3_4.png" alt="img">
+                        <div class="position-absolute absolute w-100 h-100">
+                            <img class=" w-100 h-100" src="./assets/img/png/hover_img.png" alt="hover">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-sm-6 col-12 p-sm-0 ">
+                    <div class="position-relative h-100">
+                        <img class="w-100 h-100" src="./assets/img/png/sec3_5.png" alt="img">
+                        <div class="position-absolute absolute w-100 h-100">
+                            <img class=" w-100 h-100" src="./assets/img/png/hover_img.png" alt="hover">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-sm-6 col-12 p-sm-0 ">
+                    <div class="position-relative h-100">
+                        <img class="w-100 h-100" src="./assets/img/png/sec3_6.png" alt="img">
+                        <div class="position-absolute absolute w-100 h-100">
+                            <img class=" w-100 h-100" src="./assets/img/png/hover_img.png" alt="hover">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-sm-6 col-12 p-sm-0 ">
+                    <div class="position-relative h-100">
+                        <img class="w-100 h-100" src="./assets/img/png/sec3_7.png" alt="img">
+                        <div class="position-absolute absolute w-100 h-100">
+                            <img class=" w-100 h-100" src="./assets/img/png/hover_img.png" alt="hover">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-sm-6 col-12 p-sm-0 ">
+                    <div class="position-relative h-100">
+                        <img class="w-100 h-100" src="./assets/img/png/sec3_8.png" alt="img">
+                        <div class="position-absolute absolute w-100 h-100">
+                            <img class=" w-100 h-100" src="./assets/img/png/hover_img.png" alt="hover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-xxl py-5">
+            <div class="row  pt-3 align-items-lg-center">
+                <div class="col-md-6">
+                    <h3 class="fw-bold fs_48 clr_black mb-3">Welcome</h3>
+                    <p class="fw-normal fs_18 clr_gray">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been
+                        the industry's standard
+                        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                        to make a type specimen
+                        book.</p>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center py-3">
+                                <img src="./assets/img/png/pdca.png" alt="img">
+                                <p class="mb-0 fw-normal fs_18 clr_black mg_left12">PDCA Certified Member</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center py-3">
+                                <img src="./assets/img/png/free_color.png" alt="img">
+                                <p class="mb-0 fw-normal fs_18 clr_black mg_left12">Free Color Consultation</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center py-3">
+                                <img src="./assets/img/png/flexible.png" alt="img">
+                                <p class="mb-0 fw-normal fs_18 clr_black mg_left12">Flexible Scheduling Options</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center py-3">
+                                <img src="./assets/img/png/maintain_a_clean.png" alt="img">
+                                <p class="mb-0 fw-normal fs_18 clr_black mg_left12">Maintain a Clean Work Area</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img class="w-100 object-fit-lg-cover h-100" src="./assets/img/png/sec4_img.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container-fluid">
+            <div class="d-flex flex-column align-items-center py-5">
+                <h2 class="pt-3 fw-bold fs_48 clr_black mb-3">Our Process</h2>
+                <img src="./assets/img/png/section2_dots.png" alt="dots">
+            </div>
+            <div class="row justify-content-center position-relative">
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="d-flex flex-column align-items-center mb-5">
+                        <h4 class="max_w_230 text-center fw-bold fs_24 clr_black">1. Request a free estimate</h4>
+                        <img src="./assets/img/png/sec5_1.png" alt="img" class="br_50 mb-5 mt-3">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="d-flex flex-column align-items-center mb-5">
+                        <h4 class="max_w_230 text-center fw-bold fs_24 clr_black"> 3. Extensive Prep Work</h4>
+                        <img src="./assets/img/png/sec5_2.png" alt="img" class="br_50 mb-5 mt-3">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="d-flex flex-column align-items-center mb-5">
+                        <h4 class="max_w_230 text-center fw-bold fs_24 clr_black">5. Wash Up & Clean Up</h4>
+                        <img src="./assets/img/png/sec5_3.png" alt="img" class="br_50 mb-5 mt-3">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="d-flex flex-column align-items-center mb-5">
+                        <h4 class="max_w_230 text-center fw-bold fs_24 clr_black">7. Pay & Enjoy Newly Painted Space!
+                        </h4>
+                        <img src="./assets/img/png/sec5_4.png" alt="img" class="br_50 mb-5 mt-3">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="d-flex flex-column align-items-center mt-5">
+                        <img src="./assets/img/png/sec5_5.png" alt="img" class="br_50 mt-5 mb-3">
+                        <h4 class="max_w_230 text-center fw-bold fs_24 clr_black">2. Schedule Your Service</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="d-flex flex-column align-items-center mt-5">
+                        <img src="./assets/img/png/sec5_6.png" alt="img" class="br_50 mt-5 mb-3">
+                        <h4 class="max_w_230 text-center fw-bold fs_24 clr_black">4. The Paint Magic Begins</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="d-flex flex-column align-items-center mt-5">
+                        <img src="./assets/img/png/sec5_7.png" alt="img" class="br_50 mt-5 mb-3">
+                        <h4 class="max_w_230 text-center fw-bold fs_24 clr_black">6. Perform Inspection</h4>
+                    </div>
+                </div>
+                <div class="position-absolute splash">
+                    <img src="./assets/img/png/paint-splash.png" alt="splash" class="w-100 pad_height none_992">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section>
+
+        <div class="d-flex flex-column align-items-center pt-5 pb_150">
+            <h2 class="pt-3 fw-bold fs_48 clr_black mb-3">Our Services</h2>
+            <img src="./assets/img/png/section2_dots.png" alt="dots" class="pb-5">
+        </div>
+        <div class="bg_gray mg_l_162 mt-5 p-5 br_40 ">
+            <div class="row px-5">
+                <div class="col-5">
+                    <div class="d-flex align-items-baseline px-3 position-relative">
+                        <h3 class="fw-bold fs_64 clr_blue">01. </h3>
+                        <div class="mx-3">
+                            <h3 class="fw-medium fs_48 clr_black mb-4">Residential Projects</h3>
+                            <p class="fw-normal fs_18 clr_black mb-4 mt-2">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem
+                                Ipsum has
+                                been
+                                the
+                                industry's standard</p>
+                            <button class="fw-normal fs_18  read_btn text-white ">Read More</button>
+                        </div>
+                        <img src="./assets/img/png/residential.png" alt="img" class="position-absolute img_residential">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="pb-5">
+        <div class="container-xxl pb-5">
+            <div class="d-flex flex-column align-items-center py-5">
+                <h2 class="pt-3 fw-bold fs_48 clr_black mb-3">Inspitations</h2>
+                <img src="./assets/img/png/section2_dots.png" alt="dots" class="">
+            </div>
+            <div class="d-grid grid_temp pb-5">
+                <div class="grid-items grid-item1 ">
+                    <img src="./assets/img/png/insp_1.png" alt="img" class="w-100 h-100">
+                </div>
+                <div class="grid-items grid-item2 ">
+                    <img src="./assets/img/png/insp_2.png" alt="img" class="w-100 h-100">
+                </div>
+                <div class="grid-items grid-item3 ">
+                    <img src="./assets/img/png/insp_3.png" alt="img" class="w-100 h-100">
+                </div>
+                <div class="grid-items grid-item4 ">
+                    <img src="./assets/img/png/insp_4.png" alt="img" class="w-100 h-100">
+                </div>
+                <div class="grid-items grid-item5 ">
+                    <img src="./assets/img/png/insp_5.png" alt="img" class="w-100 h-100">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="bg_blue">
+        <div class="container-xxl pb-5">
+            <h3 class="fw-bold fs_48 clr_white text-center py-4">Our Team</h3>
+            <div class="row pb-5">
+                <div class="col-lg-6">
+                    <div class="position-relative pb-5">
+                        <img src="./assets/img/png/team1.png" alt="img" class="w-75">
+                        <div class="max_w_423">
+                            <h5 class="text-center fs_18 fw-medium text-white pt-3">Team Lead</h5>
+                            <h3 class="text-center fs_24 fw-bold text-white">Frank Woods</h3>
+                        </div>
+                        <div class="position-absolute team_pos_img">
+                            <img src="./assets/img/png/team2.png" alt="img" class="  w-100">
+                            <h5 class="text-center fs_18 fw-medium text-white pt-2">Manager</h5>
+                            <h3 class="text-center fs_24 fw-bold text-white pt-1">John William</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="position-relative pb-5">
+                        <img src="./assets/img/png/team3.png" alt="img" class="w-75">
+                        <div class="max_w_423">
+                            <h5 class="text-center fs_18 fw-medium text-white pt-3">Accounts</h5>
+                            <h3 class="text-center fs_24 fw-bold text-white">Michale John</h3>
+                        </div>
+                        <div class="position-absolute team_pos_img2">
+                            <img src="./assets/img/png/team4.png" alt="img" class="">
+                            <h5 class="text-center fs_18 fw-medium text-white">CEO</h5>
+                            <h3 class="text-center fs_24 fw-bold text-white">Thomas Arthur</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section>
+        <div class="container-xxl pb-5 mb-4">
+            <div class="d-flex flex-column align-items-center py-5 mb-5">
+                <h2 class="pt-3 fw-bold fs_48 clr_black mb-3">Testimonials</h2>
+                <img src="./assets/img/png/section2_dots.png" alt="dots" class="">
+            </div>
+            <div class="row justify-content-between align-items-center justify-content-center pb-5">
+                <div class="col-md-3 col-sm-5 col-12 pb-3">
+                    <div class="d-flex justify-content-center flex-column">
+                        <img src="./assets/img/png/Testimonials1.png" alt="img">
+                        <p class="text-center fw-normal fs_18 clr_black mt-3 mb-2">Lorem Ipsum is simply dummy text of
+                            the printing and typesetting industry.</p>
+                        <h4 class="text-center fw-bold fs_18 clr_black">Diane Moreno</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-5 col-12 pb-3">
+                    <div class="d-flex justify-content-center flex-column">
+                        <img src="./assets/img/png/Testimonials2.png" alt="img">
+                        <p class="text-center fw-normal fs_18 clr_black mt-3 mb-2">Lorem Ipsum is simply dummy text of
+                            the printing and typesetting industry.</p>
+                        <h4 class="text-center fw-bold fs_18 clr_black">Max Stoiber</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-5 col-12 pb-3 ">
+                    <div class="d-flex justify-content-center flex-column">
+                        <img src="./assets/img/png/Testimonials3.png" alt="img">
+                        <p class="text-center fw-normal fs_18 clr_black mt-3 mb-2">Lorem Ipsum is simply dummy text of
+                            the printing and typesetting industry.</p>
+                        <h4 class="text-center fw-bold fs_18 clr_black">Laurie Laforest</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="bg_gray mt_100 pb-5 br_45 mb-5">
+                <h2 class="newsletter">NEWSLETTER</h2>
+                <div class="max_w_895 d-flex mx-auto mb-5">
+                    <input class="w-100 fw-normal fs_24 py-4 px-5 mb-5" type="text"
+                        placeholder="Enter Your E-Mail Here">
+                    <button class="py-4 px-4 fw-medium fs_20 clr_white bg_blue mx-4 border-0 mb-5">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-black">
+        <div class="container-xxl py-5">
+            <div class="row justify-content-between align-items-baseline py-2">
+                <div class="col-lg-5">
+                    <a href="#"><img src="./assets/img/png/footer_logo.png" alt="logo" class="mb-3"></a>
+                    <p class="clr_white fs_18 fw-normal mb-4">Lorem Ipsum has been the industry's standard dummy text
+                        ever since the 1500s, when an unknown
+                        printer took a galley of
+                        type and scrambled it</p>
+                    <div class="d-flex gap-3">
+                        <a class="pb-4" href="#"><img src="./assets/img/png/fb.png" alt="fb"></a>
+                        <a class="pb-4" href="#"><img src="./assets/img/png/insta.png" alt="insta"></a>
+                        <a class="pb-4" href="#"><img src="./assets/img/png/twitter.png" alt="twitter"></a>
+                        <a class="pb-4" href="#"><img src="./assets/img/png/yt.png" alt="yt"></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row clr_white">
+                        <div class="col-md-3">
+                            <h4 class="mb-4 fs_18 fw-semibold">Home</h4>
+                            <p><a class="clr_white fw-normal fs_18" href="#">LINK1</a></p>
+                            <p><a class="clr_white fw-normal fs_18" href="#">LINK2</a></p>
+                            <p><a class="clr_white fw-normal fs_18" href="#">LINK3</a></p>
+                            <p><a class="clr_white fw-normal fs_18" href="#">LINK4</a></p>
+                            <p><a class="clr_white fw-normal fs_18" href="#">LINK5</a></p>
+                        </div>
+                        <div class="col-md-3">
+                            <h4 class="mb-4 fs_18 fw-semibold">About us</h4>
+                            <p><a class="clr_white fw-normal fs_18" href="#">LINK1</a></p>
+                            <p><a class="clr_white fw-normal fs_18" href="#">LINK2</a></p>
+                            <p><a class="clr_white fw-normal fs_18" href="#">LINK3</a></p>
+                            <p><a class="clr_white fw-normal fs_18" href="#">LINK4</a></p>
+                            <p><a class="clr_white fw-normal fs_18" href="#">LINK5</a></p>
+                        </div>
+                        <div class="col-md-3">
+                            <h4 class="mb-4 fs_18 fw-semibold">Contact us</h4>
+                            <p><a class="clr_white fw-normal fs_18" href="#">LINK1</a></p>
+                            <p><a class="clr_white fw-normal fs_18" href="#">LINK2</a></p>
+                            <p><a class="clr_white fw-normal fs_18" href="#">LINK3</a></p>
+                            <p><a class="clr_white fw-normal fs_18" href="#">LINK4</a></p>
+                            <p><a class="clr_white fw-normal fs_18" href="#">LINK5</a></p>
+                        </div>
+                        <div class="col-md-3">
+                            <h4 class="mb-4 fs_18 fw-semibold">Portfolio</h4>
+                            <p><a class="clr_white fw-normal fs_18" href="#">LINK1</a></p>
+                            <p><a class="clr_white fw-normal fs_18" href="#">LINK2</a></p>
+                            <p><a class="clr_white fw-normal fs_18" href="#">LINK3</a></p>
+                            <p><a class="clr_white fw-normal fs_18" href="#">LINK4</a></p>
+                            <p><a class="clr_white fw-normal fs_18" href="#">LINK5</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="clr_white m-0 pb-3">
+        <p class="clr_white text-center fw-normal fs_18 pb-5 ">Copyright © Deco Master , 2021.</p>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script>
+        function shownav() {
+            document.getElementById("showul").classList.toggle("nav_left0")
+        }
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="d-grid  grid_temp">
+            <div class="grid-items grid-item1 ">
+                <h3 class="text-center">01 . <span>Request a free estimate</span></h3>
+                <img  src="./assets/img/png/sec5_1.png" alt="img" class=" br_50 z-1 mg_btm_115 w-100">
+            </div>
+            <div class="grid-items grid-item2">
+                <img src="./assets/img/png/sec5_5.png" alt="img" class=" br_50 z-1 mg_top_28">
+                <h3 class="text-center">02 . <span>Schedule Your Service</span></h3>
+            </div>
+            <div class="grid-items grid-item3">
+                <h3 class="text-center">03 . <span>Extensive Prep Work</span></h3>
+                <img src="./assets/img/png/sec5_2.png" alt="img" class=" br_50 z-1 mg_btm_115">
+            </div>
+            <div class="grid-items grid-item4">
+                <img src="./assets/img/png/sec5_6.png" alt="img" class=" br_50 z-1 mg_top_28">
+                <h3 class="text-center">04 . <span>The Paint Magic Begins</span></h3>
+            </div>
+            <div class="grid-items grid-item5">
+                <h3 class="text-center">05 . <span>Wash Up & Clean Up</span></h3>
+                <img src="./assets/img/png/sec5_3.png" alt="img" class=" br_50 z-1 mg_btm_115">
+            </div>
+            <div class="grid-items grid-item6">
+                <img src="./assets/img/png/sec5_7.png" alt="img" class=" br_50 z-1 mg_top_28">
+                <h3 class="text-center">06 . <span>Perform Inspection</span></h3>
+            </div>
+            <div class="grid-items grid-item7">
+                <h3 class="text-center">07 . <span>Pay & Enjoy Newly Painted Space!</span></h3>
+                <img src="./assets/img/png/sec5_4.png" alt="img" class=" br_50 z-1 mg_btm_115">
+            </div>
+            <div class="grid-items grid-item8">
+          <img src="./assets/img/png/paint-splash1.png" alt="paint">
+            </div>
+            <div class="grid-items grid-item9">
+                <img src="./assets/img/png/paint-splash1.png" alt="paint">
+            </div>
+            <div class="grid-items grid-item10">
+                <img src="./assets/img/png/paint-splash1.png" alt="paint">
+            </div>
+            <div class="grid-items grid-item11">
+                <img src="./assets/img/png/paint-splash2.png" alt="paint">
+            </div>
+            <div class="grid-items grid-item12">
+                <img src="./assets/img/png/paint-splash1.png" alt="paint">
+            </div>
+            <div class="grid-items grid-item13">
+                <img src="./assets/img/png/paint-splash1.png" alt="paint">
+            </div> -->
