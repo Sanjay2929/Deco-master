@@ -417,7 +417,9 @@ ul li a:hover {
     grid-row: 2/5;
 }
 
-
+.outline_none{
+    outline: none;
+}
 
 
 

@@ -21,12 +21,12 @@
                     <img src="./assets/img/png/logo.png" alt="logo">
 
                     <ul id="showul" class="d-flex gap-5 mob_view mb-0">
-                        <li><a class="" href="#">Home</a></li>
-                        <li><a href="#">Overview</a></li>
-                        <li><a href="#">Why Choose Us?</a></li>
-                        <li><a href="#">Our Plans</a></li>
-                        <li><a href="#">How It Works</a></li>
-                        <li><a href="#">FAQs</a></li>
+                        <li><a class="" href="#home">Home</a></li>
+                        <li><a href="#overview">Overview</a></li>
+                        <li><a href="#why">Why Choose Us?</a></li>
+                        <li><a href="#plans">Our Plans</a></li>
+                        <li><a href="#work">How It Works</a></li>
+                        <li><a href="#faqs">FAQs</a></li>
                     </ul>
                     <div class="menuicon d-lg-none" id="shownav" onclick="shownav()">
                         <span class="navline">
@@ -39,7 +39,7 @@
                 </div>
             </div>
         </nav>
-        <section class="hero_bg flex-grow-1 d-flex flex-column   justify-content-center ">
+        <section class="hero_bg flex-grow-1 d-flex flex-column   justify-content-center " id="home">
             <div class="container-xxl  ">
                 <h4 class="mb-4"><i class="fw-normal fs_18 clr_purple ">Splash Your Dream Color</i></h4>
                 <h2 class="fw-medium fs_36 clr_black mb-4 pb-2">Bring Your Home To Lively Colors</h2>
@@ -48,7 +48,7 @@
         </section>
     </header>
     <!-- Why Choose Us? -->
-    <section class="position-relative">
+    <section class="position-relative" id="why">
         <img src="./assets/img/png/sec2_bg1.png" alt="img" class="position-absolute sec1_bg1 none_1500">
         <img src="./assets/img/png/sec2_bg2.png" alt="img" class="position-absolute sec1_bg2 none_1500">
         <div class="container-xxl pb-5">
@@ -97,7 +97,7 @@
         </div>
     </section>
     <!-- Gallery -->
-    <section class="overflow-hidden pb-5">
+    <section class="overflow-hidden pb-5" id="overview">
         <div class="container-fluid">
             <div class="d-flex flex-column align-items-center py-5">
                 <h2 class="pt-3 fw-bold fs_48 clr_black mb-3">Gallery</h2>
@@ -220,7 +220,7 @@
         </div>
     </section>
     <!-- Our Process -->
-    <section class="py-5">
+    <section class="py-5" id="plans">
         <div class="container-fluid">
             <div class="d-flex flex-column align-items-center py-5">
                 <h2 class="pt-3 fw-bold fs_48 clr_black mb-3">Our Process</h2>
@@ -323,7 +323,7 @@
         </div>
     </section>
     <!-- Our Services -->
-    <section class="position-relative overflow-hidden">
+    <section class="position-relative overflow-hidden" id="work">
 
         <div class="bg_gray h_300 w_90 br_40 position-absolute none_1400 position-relative"> </div>
         <div class="bg_gray h_300 w2_90 br_right_40 position-absolute none_1400"></div>
@@ -409,7 +409,7 @@
 
     </section>
     <!-- Inspitations -->
-    <section class="pb-5 position-relative">
+    <section class="pb-5 position-relative" id="plans">
         <img src="./assets/img/png/sec7_bg1.png" alt="img" class="position-absolute sec7_bg1">
         <img src="./assets/img/png/sec7_bg2.png" alt="img" class="position-absolute sec7_bg2">
         <div class="container-xxl pb-5">
@@ -484,7 +484,7 @@
         </div>
     </section>
     <!-- Testimonials -->
-    <section class="position-relative pt-5">
+    <section class="position-relative pt-5" id="faqs">
         <img src="./assets/img/png/sec9_bg1.png" alt="img" class=" sec9_bg1 position-absolute d-none d-xl-block">
         <img src="./assets/img/png/sec9_bg2.png" alt="img" class=" sec9_bg2 position-absolute">
         <img src="./assets/img/png/sec9_bg3.png" alt="img" class=" sec9_bg3 position-absolute">
@@ -523,7 +523,7 @@
             <div class="bg_gray mt_100 pb-sm-5 pb-4 br_45 mb-5">
                 <h2 class="newsletter">NEWSLETTER</h2>
                 <div class="max_w_895 d-flex flex-sm-row flex-column mx-auto mb-5 p-4">
-                    <input class="w-100 fw-normal fs_24 py-sm-4 px-sm-5 mb-sm-5 mb-3 p-3" type="text"
+                    <input class="w-100 fw-normal fs_24 py-sm-4 px-sm-5 mb-sm-5 mb-3 p-3 outline_none" type="text"
                         placeholder="Enter Your E-Mail Here">
                     <button
                         class="p-sm-4 p-3 fw-medium fs_20 clr_white bg_blue mx-4 border-0 mb-sm-5">Subscribe</button>
