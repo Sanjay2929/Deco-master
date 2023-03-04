@@ -394,11 +394,7 @@ ul li a:hover {
     max-width: 177px;
 }
 
-.min_w_1326 {
-    min-width: 1326px;
-    bottom: -60px;
-    left: 328px;
-}
+
 
 
 .grid1 {
@@ -485,6 +481,12 @@ ul li a:hover {
 
     .none_992 {
         display: none;
+    }
+}
+
+@media (max-width:1100px) {
+    .w100_xl {
+        width: 100% !important;
     }
 }
 
@@ -683,6 +685,22 @@ ul li a:hover {
         left: 47px;
         top: 1431px;
         z-index: -1;
+    }
+}
+
+@media (min-width:1500px) {
+    .position-absolute1500 {
+        position: absolute;
+    }
+
+    .min_w_1326 {
+        min-width: 1326px;
+        bottom: -60px;
+        left: 328px;
+    }
+
+    .overflow-hidden_xxl {
+        overflow: hidden;
     }
 }
 
